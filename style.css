@@ -1,0 +1,50 @@
+/* images section */
+
+.box.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .box {
+    padding: .5rem;
+    padding-top: 10vh;
+
+  }
+
+  .box p{
+    margin: 20px;
+  }
+  
+  .box button{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+  }
+/* end images section */
+  
+/* score section */
+  .box2.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .box2 {
+    padding: .5rem;
+    /* padding-top: 40vh; */
+
+  }
+
+  .box2 p{
+    margin: 20px;
+    padding: 40px;
+  }
+  
+  .box2 p{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+  }
