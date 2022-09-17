@@ -1,5 +1,8 @@
 /* images section */
-
+body{
+  background-color: #2b6677;
+  color: #fff;
+}
 .box.flex {
     display: flex;
     justify-content: center;
@@ -10,11 +13,12 @@
   .box {
     padding: .5rem;
     padding-top: 10vh;
-
+    
   }
 
-  .box p{
+  .box button{
     margin: 20px;
+    
   }
   
   .box button{
@@ -29,22 +33,72 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: row;
   }
 
   .box2 {
+    font-size: 150%;
     padding: .5rem;
-    /* padding-top: 40vh; */
-
+    
+    
   }
 
   .box2 p{
-    margin: 20px;
-    padding: 40px;
+    
+    margin: .05vh;
+    padding: 1vh;
   }
-  
-  .box2 p{
-    margin: 10px;
-    width: 100px;
-    height: 100px;
+  .box2 #computer-score{
+    border-style: dotted;
   }
+  .box2 #player-score{
+    border-style: dotted;
+  }
+   
+  .box2 #computer-choice{
+    border-style: dotted;
+  }
+
+  .box2 #player-choice{
+    border-style: dotted;
+  }
+
+
+  #rock{
+    
+  background: url("images/rock.svg");
+  background-repeat:round;
+  background-size: auto;
+  background-size: 95% auto;
+
+  }
+  #paper{
+    background: url("images/Paper.png");
+    background-repeat: round;
+  background-size: auto;
+  background-size: 90% auto;
+  }
+  #scissors{
+  background: url("images/scissors.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 100%;
+  }
+
+  #rock div{
+    
+  display: none;
+  }
+
+  #paper div{
+    
+    display: none;
+    }
+
+#scissors div{
+    
+      display: none;
+  }
+     
+   
+ 
