@@ -38,15 +38,15 @@ body{
 
   .box2 {
     font-size: 150%;
-    padding: .5rem;
+    padding: .6rem;
     
     
   }
 
   .box2 p{
     
-    margin: .05vh;
-    padding: 1vh;
+    margin: .8vh;
+    padding: .5vh;
   }
   .box2 #computer-score{
     border-style: dotted;
@@ -101,4 +101,17 @@ body{
   }
      
    
- 
+  @media only screen and (max-width: 600px) {
+    .box2 {
+      font-size: 100%;
+      padding: .6rem;
+      
+      
+    }
+  
+    .box2 p{
+      
+      margin: .2vh;
+      padding: .5vh;
+    }
+  }
