@@ -53,7 +53,6 @@ function getResult(){
     
     if(computerChoice == userChoice){
         rounds++
-        
         result = "it's a tie"
     }
     if(computerChoice == "rock" && userChoice == "paper"){
@@ -68,8 +67,8 @@ function getResult(){
     }
     if(computerChoice == "paper" && userChoice == "scissors"){
         rounds++
-        cpuScore++
-        result = "you lose"
+        pScore++
+        result = "you win"
     }
     if(computerChoice == "paper" && userChoice == "rock"){
         rounds++
@@ -78,7 +77,7 @@ function getResult(){
     }
     if(computerChoice == "scissors" && userChoice == "rock"){
         rounds++
-        cpuScore++
+        pScore++
         result = "you win"
     }
     if(computerChoice == "scissors" && userChoice == "paper"){
